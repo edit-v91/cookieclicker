@@ -18,17 +18,36 @@ html {
 
 #header {
     text-align: center;
-    padding-bottom: 50px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.4);
+    background-color: rgb(216, 27, 115);
 }
 
 #click-counter-container {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 #pop-up-message-container {
     text-align: center;
     padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pop-up-message:not(:empty) {
+    display: flex;
+    width: fit-content;
+    box-shadow: 10px 10px 25px rgba(255, 244, 244, 0.555);
+    padding: 10px 15px 10px 15px;
+    background-color: rgb(247, 124, 191);
+    border-color: rgb(247, 124, 191);
+    border-radius: 20px;
+    animation: slideUp 0.6s ease-out;
+    margin-bottom: 40px;
+    margin-top: 15px;
 }
 
 #shop-icons {
@@ -46,3 +65,14 @@ html {
 
 
 
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50px); /* start below */
+    opacity: 0;                  /* invisible */
+  }
+  to {
+    transform: translateY(0);    /* normal position */
+    opacity: 1;                  /* fully visible */
+  }
+}
