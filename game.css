@@ -1,0 +1,27 @@
+html {
+    background-color: rgb(240, 73, 151);
+}
+
+#muffin-photo {
+    height: 300px;
+    filter: drop-shadow(10px 10px 20px rgba(255, 244, 244, 0.555));
+    display: flex;
+    max-width: 100%;
+}
+
+#cookie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+#header {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#click-counter-container {
+    text-align: center;
+    padding-top: 20px;
+}
