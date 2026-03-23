@@ -25,3 +25,24 @@ html {
     text-align: center;
     padding-top: 20px;
 }
+
+#pop-up-message-container {
+    text-align: center;
+    padding-top: 150px;
+}
+
+#shop-icons {
+    display: flex;
+    justify-content: end;
+}
+
+
+#money-icons {
+}
+
+#money-photo {
+    height: 70px;
+}
+
+
+
